@@ -8,12 +8,53 @@
     <meta name="description" content="Digitally Uncommon - Alexa Skills development">
     <meta name="author" content="Digitally Uncommon">
     <title>Digitally Uncommon</title>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Ceviche+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <section>
-        <p>Digitally Uncommon</p>
+    <!-- <header>
+        <h1><span class="digitally">Digitally</span> <span class="uncommon">UNCOMMON</span></h1>
+    </header> -->
+    <section class="showcase">
+        <div class="container">
+            <h1>Digitally Uncommon</h1>
+            <h2>Fun Alexa Skills for everyone.</h2>
+            <p>Digitally Uncommon makes Alexa Skills suitable for all ages. Check out our current Alexa Skills below.</p>
+        </div>
     </section>
+
+    <section class="notification">
+        <div class="container">
+            <h1>Get notified about new releases.</h1>
+            <p>Sign up here to be notified about new releases or if you would like to be a play tester for new skills
+                that
+                are under development.</p>
+            <form name="contact" method="POST" action="/notification-success" netlify-honeypot="name" netlify>
+                <p style="display: none">
+                    <label>Don’t fill this out if you're human: <input name="name" /></label>
+                </p>
+                <p>
+                    <div>Your email address</div>
+                    <input type="email" name="email" />
+                    <div><button type="submit">Submit</button></div>
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <section class="skills">
+        <section class="skill">
+            <!-- <img src="./images/lets-get-moving-512.png" alt="Image of kids jumping and having fun."> -->
+            <p>Fun activities for young kids, and maybe even their parents, to get everyone up and moving. </p>
+            <p>Alexa will give you instructions and you have to try to follow them as best as possible. Everything from
+                jumping around like a frog, to marching around in a circle, to making silly faces.</p>
+            <p> <a href="https://www.amazon.com/Digitally-Uncommon-Lets-get-moving/dp/B07KYCYPNM" target="_blank">Get
+                    from Amazon</a></p>
+        </section>
+    </section>
+
+    <footer>Cookies Privacy policy</footer>
 </body>
 
 </html>
