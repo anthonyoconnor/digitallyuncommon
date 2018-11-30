@@ -1,6 +1,7 @@
 body { 
     margin: 0;
     line-height: 1.6;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* SHOWCASE */
@@ -9,7 +10,7 @@ body {
     padding: 0;
     width: 100%;
     height: 60vh;
-    background-color: aquamarine;
+    background-color: #fff;
     overflow-y: hidden;
 }
 .showcase .container {
@@ -33,7 +34,7 @@ body {
 .notification {
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(122, 129, 127);
+    background-color: #D0EEFC;
     overflow-y: hidden;
 }
 
@@ -61,12 +62,12 @@ button {
     border: none;
     border-radius: 5px;
     color: white;
-    background: red;
+    background: #FFB158;
     padding: 1rem 2rem;
 }
 
 button:hover {
-    background: blue;
+    background: #FFA358;
 }
 
 
@@ -74,17 +75,19 @@ button:hover {
 
 .skills {
     max-width: 1180px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     flex-wrap: wrap;
     align-content:center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .skill {
-    max-width: 300px;
+    max-width: 400px;
     min-width: 300px;
     padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 }
 
 .skill h1 {
@@ -100,9 +103,14 @@ button:hover {
     border: none;
     border-radius: 5px;
     color: white;
-    background: red;
+    background: #FFB158;
     padding: 1rem 2rem;
     text-decoration: none;
+    display: block; 
+}
+
+.skill a:hover {
+    background: #FFA358;
 }
 
 img {
@@ -158,6 +166,10 @@ img {
 
     input[type=email] {
         width: 80%;
+    }
+
+    .skill {
+        max-width: 300px;
     }
     
 }
