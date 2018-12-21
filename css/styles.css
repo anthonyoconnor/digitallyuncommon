@@ -4,6 +4,12 @@ body {
     font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
 /* SHOWCASE */
 .showcase {
     margin: 0;
